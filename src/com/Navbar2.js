@@ -95,7 +95,7 @@ const Navbar = () => {
   {/* Brand Text */}
   <div className="flex flex-col">
     <span className="text-xl font-bold text-slate-900 leading-none tracking-tight">
-      Edu Mentor
+      Edu Mentor360
     </span>
     <span className={`text-[10px] font-bold uppercase tracking-wider ${brandText}`}>
       Education Consultancy

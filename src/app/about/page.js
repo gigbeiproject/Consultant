@@ -124,7 +124,7 @@ export default function AboutPage() {
       </section>
 
       {/* 4. Meet The Team */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      {/* <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0f172a] mb-4">
             Meet Your Mentors
@@ -152,7 +152,7 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* 5. Call to Action */}
       <section className="py-20 bg-blue-600 px-4 text-center">

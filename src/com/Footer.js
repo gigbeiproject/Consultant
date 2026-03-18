@@ -26,7 +26,7 @@ export default function Footer() {
               <div className="bg-blue-600 p-2 rounded-lg">
                 <GraduationCap size={24} strokeWidth={2} />
               </div>
-              <span className="text-2xl font-extrabold tracking-tight">Edu Mentor</span>
+              <span className="text-2xl font-extrabold tracking-tight">Edu Mentor360</span>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Your trusted partner in global education. We guide ambitious students through the complex university admissions process to secure placements and scholarships at world-class institutions.
@@ -95,7 +95,7 @@ export default function Footer() {
 
         {/* Bottom Border & Copyright */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>&copy; {currentYear} Edu Mentor Consultancy. All rights reserved.</p>
+          <p>&copy; {currentYear} Edu Mentor360 Consultancy. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>

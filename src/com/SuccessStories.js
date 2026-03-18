@@ -4,55 +4,63 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Star, CheckCircle2, Quote } from 'lucide-react';
 
-// Data array makes it easy to manage testimonials
+// Updated data array with Indian names and your specific college list
 const stories = [
   {
-    name: "Sarah Chen",
-    major: "Computer Science Student",
-    university: "Stanford University",
-    quote: "The consultation helped me secure $80,000 in scholarships. The team guided me through every step of the application process.",
-    achievement: "$80K Scholarship Secured",
-    avatar: "https://i.pravatar.cc/150?u=sarah" 
-  },
-  {
-    name: "Michael Rodriguez",
-    major: "Engineering Student",
-    university: "MIT",
-    quote: "I got into my dream school! The personalized roadmap made the complex admissions process so much clearer and manageable.",
-    achievement: "Admitted to Top 10 University",
-    avatar: "https://i.pravatar.cc/150?u=michael"
+    name: "Aarav Sharma",
+    major: "Computer Science Engineering",
+    university: "RV College of Engineering",
+    quote: "The consultation helped me secure my seat in the CS program. The team guided me through every step of the counseling process.",
+    achievement: "Admitted to Top Merit Seat"
   },
   {
     name: "Priya Patel",
-    major: "Business Student",
-    university: "Oxford University",
-    quote: "The scholarship guidance was invaluable. They helped me find opportunities I never knew existed and craft winning applications.",
-    achievement: "Full Scholarship Winner",
-    avatar: "https://i.pravatar.cc/150?u=priya"
+    major: "Information Science",
+    university: "BMS College of Engineering",
+    quote: "I got into my dream college! The personalized roadmap made the complex admissions process so much clearer and manageable.",
+    achievement: "Secured Management Quota"
   },
   {
-    name: "David Kim",
-    major: "Medical Student",
-    university: "Harvard University",
-    quote: "Their expert consultants are former admissions officers. The insider knowledge they shared was game-changing for my application.",
-    achievement: "Accepted to Harvard Med",
-    avatar: "https://i.pravatar.cc/150?u=david"
+    name: "Rohan Desai",
+    major: "Mechanical Engineering",
+    university: "MS Ramaiah Institute of Technology",
+    quote: "The admission guidance was invaluable. They helped me find opportunities I never knew existed and clear the interviews effortlessly.",
+    achievement: "Direct Admission Success"
   },
   {
-    name: "Emily Watson",
-    major: "Liberal Arts Student",
-    university: "Yale University",
-    quote: "As a first-generation student, I had no idea where to start. This service made my dream of studying abroad a reality.",
-    achievement: "First-Gen Success Story",
-    avatar: "https://i.pravatar.cc/150?u=emily"
+    name: "Sneha Reddy",
+    major: "Electronics & Communication",
+    university: "BITS Pilani",
+    quote: "Their expert consultants have great insider knowledge. Their advice was game-changing for my BITSAT strategy and preference filling.",
+    achievement: "Accepted to BITS"
   },
   {
-    name: "James Thompson",
-    major: "Physics Student",
-    university: "Cambridge University",
-    quote: "The 95% success rate is real. Every piece of advice was spot-on and helped me stand out in a competitive applicant pool.",
-    achievement: "Cambridge Scholar",
-    avatar: "https://i.pravatar.cc/150?u=james"
+    name: "Karan Singh",
+    major: "Computer Applications (BCA)",
+    university: "Christ University",
+    quote: "As a student confused about applications, I had no idea where to start. This service made my dream of studying in Bangalore a reality.",
+    achievement: "Cleared Entrance & Interview"
+  },
+  {
+    name: "Anjali Gupta",
+    major: "Business Administration (BBA)",
+    university: "Symbiosis University",
+    quote: "The success rate is real. Every piece of advice was spot-on and helped me stand out in the SET exam and personal interview.",
+    achievement: "Symbiosis Merit List"
+  },
+  {
+    name: "Vikram Malhotra",
+    major: "Data Science Engineering",
+    university: "Vellore Institute of Technology (VIT)",
+    quote: "Securing a good category seat in VIT seemed tough, but their expert counseling made the entire process smooth and transparent.",
+    achievement: "Category 1 Seat Secured"
+  },
+  {
+    name: "Neha Verma",
+    major: "Computer Science Engineering",
+    university: "Manipal University",
+    quote: "From MET preparation tips to final counseling rounds, the continuous support I received was absolutely phenomenal.",
+    achievement: "Admitted to Main Campus"
   }
 ];
 
@@ -65,24 +73,17 @@ const TestimonialCard = ({ story }) => (
       <Quote size={48} fill="currentColor" />
     </div>
 
-    {/* User Profile Header */}
-    <div className="flex items-center gap-4 mb-6 relative z-10">
-      <img 
-        src={story.avatar} 
-        alt={`${story.name} profile`} 
-        className="w-14 h-14 rounded-full object-cover border-2 border-white shadow-sm"
-      />
-      <div>
-        <h3 className="font-bold text-slate-900 text-sm md:text-base">
-          {story.name}
-        </h3>
-        <p className="text-xs md:text-sm text-slate-500">
-          {story.major}
-        </p>
-        <p className="text-xs md:text-sm font-semibold text-[#2563eb]">
-          {story.university}
-        </p>
-      </div>
+    {/* User Profile Header (Image removed, layout adjusted) */}
+    <div className="mb-6 relative z-10 pr-12">
+      <h3 className="font-bold text-slate-900 text-lg md:text-xl mb-1">
+        {story.name}
+      </h3>
+      <p className="text-sm md:text-base font-bold text-[#2563eb] mb-1">
+        {story.university}
+      </p>
+      <p className="text-xs md:text-sm text-slate-500 font-medium">
+        {story.major}
+      </p>
     </div>
 
     {/* 5-Star Rating */}
@@ -97,14 +98,14 @@ const TestimonialCard = ({ story }) => (
     </div>
 
     {/* Quote */}
- <blockquote className="text-slate-600 text-sm leading-relaxed mb-8 flex-grow relative z-10">
-  &quot;{story.quote}&quot;
-</blockquote>
+    <blockquote className="text-slate-600 text-sm leading-relaxed mb-8 flex-grow relative z-10 italic">
+      &quot;{story.quote}&quot;
+    </blockquote>
 
     {/* Achievement Footer */}
     <div className="flex items-center gap-2 mt-auto pt-4 border-t border-slate-100 text-[#10b981] relative z-10">
       <CheckCircle2 size={18} strokeWidth={2.5} />
-      <span className="text-xs font-bold tracking-wide">
+      <span className="text-xs font-bold tracking-wide uppercase">
         {story.achievement}
       </span>
     </div>
@@ -135,9 +136,9 @@ const ScrollingRow = ({ items, direction = "left", speed = 40 }) => {
 };
 
 export default function SuccessStories() {
-  // Split the stories into two rows for a dynamic scrolling effect
-  const topRow = stories.slice(0, 3);
-  const bottomRow = stories.slice(3, 6);
+  // Split the stories into two rows for a dynamic scrolling effect (4 per row)
+  const topRow = stories.slice(0, 4);
+  const bottomRow = stories.slice(4, 8);
 
   return (
     <section className="py-24 bg-[#fafbfc] font-sans overflow-hidden">
