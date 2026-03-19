@@ -59,8 +59,8 @@ const Navbar = () => {
                 <Phone size={12} className="mr-2" /> +91 8147825355
               </a>
               <span className="hidden sm:inline text-slate-600">|</span>
-              <a href="mailto:edumentor247@gmail.com" className="hidden sm:flex items-center text-white transition-colors">
-                <Mail size={12} className="mr-2" /> edumentor247@gmail.com
+              <a href="mailto:help@edumentor360.in" className="hidden sm:flex items-center text-white transition-colors">
+                <Mail size={12} className="mr-2" /> help@edumentor360.in
               </a>
             </div>
             <div className="flex items-center gap-2">

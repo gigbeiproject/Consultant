@@ -34,8 +34,8 @@ export default function ContactPage() {
             </div>
             <h3 className="text-lg font-bold text-[#0f172a] mb-2">Email Us</h3>
             <p className="text-slate-500 text-sm mb-4">We usually respond within 24 hours.</p>
-            <a href="mailto:edumentor247@gmail.com" className="text-blue-600 font-semibold hover:underline mt-auto break-all">
-              edumentor247@gmail.com
+            <a href="mailto:help@edumentor360.in" className="text-blue-600 font-semibold hover:underline mt-auto break-all">
+             help@edumentor360.in
             </a>
           </div>
 
