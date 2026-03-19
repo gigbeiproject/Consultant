@@ -57,9 +57,9 @@ export default function ContactPage() {
               <MapPin size={24} />
             </div>
             <h3 className="text-lg font-bold text-[#0f172a] mb-2">Visit Us</h3>
-            <p className="text-slate-500 text-sm mb-4">123 University , balod District</p>
+            <p className="text-slate-500 text-sm mb-4">Delta career solution 2nd Floor, 33rd Cross Rd, 4th T Block Jayanagar, Bengaluru, Karnataka 560011</p>
             <span className="text-rose-600 font-semibold mt-auto">
-              Mumbai, IN 10001
+            Bengaluru, Karnataka 560011
             </span>
           </div>
 
