@@ -52,10 +52,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6 text-lg">Quick Links</h4>
             <ul className="flex flex-col gap-4 text-sm text-slate-400">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Our Services</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Success Stories</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Consultant Team</a></li>
+              <li><a href="/about" className="hover:text-blue-400 transition-colors">About Us</a></li>
+              {/* <li><a href="#" className="hover:text-blue-400 transition-colors">Our Services</a></li> */}
+              {/* <li><a href="#" className="hover:text-blue-400 transition-colors">Success Stories</a></li> */}
+              <li><a href="/contact" className="hover:text-blue-400 transition-colors">Contact Us</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">Blog & Resources</a></li>
             </ul>
           </div>
@@ -78,7 +78,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4 text-sm text-slate-400">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-blue-500 shrink-0 mt-0.5" />
-                <span>123 University Avenue,<br />balod District,<br />IN 10001, India</span>
+                <span>Delta career solution 2nd Floor, 33rd Cross Rd, 4th T Block Jayanagar, Bengaluru, Karnataka 560011<br />Bengaluru, Karnataka 560011</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />

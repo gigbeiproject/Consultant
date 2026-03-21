@@ -1,5 +1,8 @@
 import BookingForm from "@/com/BookingForm";
 import Brand from "@/com/Brand";
+import CareerPathfinder from "@/com/CareerPathfinder";
+import EducationPolicy from "@/com/EducationPolicy";
+import EduMentor360 from "@/com/EduMentor360";
 import HeroSection from "@/com/HeroSection";
 import HowItWorks from "@/com/HowItWorks";
 import StatsAndFeatures from "@/com/StatsAndFeatures";
@@ -15,7 +18,9 @@ export default function Home() {
      <HeroSection/>
      <TextMarquee/>
      <HowItWorks/>
-     
+     <CareerPathfinder/>
+     <EduMentor360/>
+     <EducationPolicy/>
      <BookingForm/>
      <SuccessStories/>
      <Brand/>

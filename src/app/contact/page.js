@@ -86,7 +86,7 @@ export default function ContactPage() {
                 <input
                   type="text"
                   id="firstName"
-                  placeholder="John"
+                  placeholder="mohit"
                   className="w-full border-2 border-white rounded-xl px-5 py-3 text-slate-700 placeholder:text-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 shadow-sm transition-colors"
                   required
                 />
@@ -96,7 +96,7 @@ export default function ContactPage() {
                 <input
                   type="text"
                   id="lastName"
-                  placeholder="Doe"
+                  placeholder="bhardwaj"
                   className="w-full border-2 border-white rounded-xl px-5 py-3 text-slate-700 placeholder:text-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 shadow-sm transition-colors"
                   required
                 />
@@ -110,7 +110,7 @@ export default function ContactPage() {
                 <input
                   type="email"
                   id="email"
-                  placeholder="john@example.com"
+                  placeholder="mohit@example.com"
                   className="w-full border-2 border-white rounded-xl px-5 py-3 text-slate-700 placeholder:text-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 shadow-sm transition-colors"
                   required
                 />
